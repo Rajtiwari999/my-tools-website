@@ -1,0 +1,80 @@
+body {
+  background: #171F2A;
+  color: #E1E1E6;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  text-align: center;
+}
+
+header { margin: 2rem 0; }
+.highlight { color: #FFA902; }
+
+ul { list-style: none; padding: 0; }
+ul li { padding: 5px 0; }
+
+#features {
+  max-width: 600px;
+  background: #22304A;
+  padding: 2rem;
+  border-radius: 16px;
+  margin: auto;
+}
+
+.tools-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tool-card {
+  background: #202C40;
+  padding: 1.5rem;
+  border-radius: 12px;
+  flex: 1 0 250px;
+  min-width: 220px;
+}
+
+.tool-card h3 { color: #FFA902; }
+.tool-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #FFA902;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tool-box {
+  max-width: 600px;
+  background: #202C40;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin: 2rem auto;
+}
+
+textarea, input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+}
+
+.btn-group { display: flex; justify-content: space-between; }
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #FFA902;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover { background: #ff8c00; }
+
+@media (max-width: 700px) {
+  .tools-grid { flex-direction: column; align-items: center; }
+}

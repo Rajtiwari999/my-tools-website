@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Image Compressor – No.1 Online Tools</title>
+<meta name="description" content="Compress images online without losing quality. Free image size reducer.">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <h1>Image Compressor</h1>
+  <p><a href="index.html">← Back to Home</a></p>
+</header>
+
+<section class="tool-box">
+  <input type="file" id="img-input" accept="image/*">
+  <button onclick="compressImage()">Compress Image</button>
+  <p id="img-info"></p>
+  <canvas id="canvas" style="display:none;"></canvas>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
